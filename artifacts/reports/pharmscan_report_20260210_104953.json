@@ -1,0 +1,39 @@
+{
+  "timestamp_utc": "2026-02-10T10:49:53.496419Z",
+  "image_path": "artifacts\\examples\\311b49b0-3721-4a36-9c6c-f93ebe0ff22b.webp",
+  "bbox_xyxy": [
+    310,
+    282,
+    903,
+    362
+  ],
+  "signals": {
+    "yolo_conf": 0.29346024990081787,
+    "trocr_conf_proxy": 0.7350382129351298,
+    "extracted_text_raw": "SM DO8 HAPPYKHORO MPWEEH",
+    "extracted_text_normalized": "SM DO8 HAPPYKHORO MPWEEH",
+    "regex_plausibility": 1.0,
+    "semantic_best_match": "OMEPRAZOLE",
+    "semantic_similarity": 0.23042625188827515,
+    "text_quality_features": {
+      "quality_score": 0.9249999999999999,
+      "len_score": 1.0,
+      "alpha_ratio": 0.8333333333333334,
+      "weird_char_penalty": 0.0
+    }
+  },
+  "risk_assessment": {
+    "risk_score": 0.4054867341121038,
+    "risk_level": "MEDIUM",
+    "decision": "REVIEW",
+    "reasons": [
+      "Low semantic match to known drugs (sim=0.23)."
+    ]
+  },
+  "safety_note": "This tool is for screening only. It does not verify authenticity and is not medical advice. For exact use and dosing, consult a pharmacist/clinician.",
+  "recommended_next_steps": [
+    "Re-take the photo with better lighting.",
+    "Try another angle.",
+    "Manual review by pharmacist."
+  ]
+}

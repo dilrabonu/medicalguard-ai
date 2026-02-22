@@ -1,0 +1,37 @@
+{
+  "timestamp_utc": "2026-02-10T11:25:11.204076Z",
+  "image_path": "artifacts\\examples\\364522c0-4b26-4367-9717-2da3278bf970.webp",
+  "bbox_xyxy": [
+    887,
+    288,
+    1371,
+    429
+  ],
+  "signals": {
+    "yolo_conf": 0.4721517562866211,
+    "trocr_conf_proxy": 0.8287129870482853,
+    "extracted_text_raw": "PM@AMTMLMH",
+    "extracted_text_normalized": "PMAMTMLMH",
+    "regex_plausibility": 1.0,
+    "semantic_best_match": "SALBUTAMOL",
+    "semantic_similarity": 0.31315547227859497,
+    "text_quality_features": {
+      "quality_score": 1.0,
+      "len_score": 1.0,
+      "alpha_ratio": 1.0,
+      "weird_char_penalty": 0.0
+    }
+  },
+  "risk_assessment": {
+    "risk_score": 0.2962530913097518,
+    "risk_level": "LOW",
+    "decision": "OK",
+    "reasons": [
+      "Low semantic match to known drugs (sim=0.31)."
+    ]
+  },
+  "safety_note": "This tool is for screening only. It does not verify authenticity and is not medical advice. For exact use and dosing, consult a pharmacist/clinician.",
+  "recommended_next_steps": [
+    "Proceed with a manual visual check."
+  ]
+}

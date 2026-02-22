@@ -1,0 +1,37 @@
+{
+  "timestamp_utc": "2026-02-11T11:06:39.422586Z",
+  "image_path": "artifacts\\examples\\images (1).jpg",
+  "bbox_xyxy": [
+    9,
+    108,
+    84,
+    135
+  ],
+  "signals": {
+    "yolo_conf": 0.41801315546035767,
+    "trocr_conf_proxy": 0.8928719311952591,
+    "extracted_text_raw": "AMOUNT:",
+    "extracted_text_normalized": "AMOUNT",
+    "regex_plausibility": 1.0,
+    "semantic_best_match": "IBUPROFEN",
+    "semantic_similarity": 0.217879056930542,
+    "text_quality_features": {
+      "quality_score": 1.0,
+      "len_score": 1.0,
+      "alpha_ratio": 1.0,
+      "weird_char_penalty": 0.0
+    }
+  },
+  "risk_assessment": {
+    "risk_score": 0.3086895070970058,
+    "risk_level": "LOW",
+    "decision": "OK",
+    "reasons": [
+      "Low semantic match to known drugs (sim=0.22)."
+    ]
+  },
+  "safety_note": "This tool is for screening only. It does not verify authenticity and is not medical advice. For exact use and dosing, consult a pharmacist/clinician.",
+  "recommended_next_steps": [
+    "Proceed with a manual visual check."
+  ]
+}

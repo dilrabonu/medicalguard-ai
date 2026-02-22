@@ -1,0 +1,37 @@
+{
+  "timestamp_utc": "2026-02-10T12:04:40.991911Z",
+  "image_path": "artifacts\\examples\\acup.jpg",
+  "bbox_xyxy": [
+    111,
+    206,
+    227,
+    256
+  ],
+  "signals": {
+    "yolo_conf": 0.7937436103820801,
+    "trocr_conf_proxy": 0.9524954954783121,
+    "extracted_text_raw": "QUINAPRIL",
+    "extracted_text_normalized": "QUINAPRIL",
+    "regex_plausibility": 1.0,
+    "semantic_best_match": "PARACETAMOL",
+    "semantic_similarity": 0.4808468818664551,
+    "text_quality_features": {
+      "quality_score": 1.0,
+      "len_score": 1.0,
+      "alpha_ratio": 1.0,
+      "weird_char_penalty": 0.0
+    }
+  },
+  "risk_assessment": {
+    "risk_score": 0.1359811743100484,
+    "risk_level": "LOW",
+    "decision": "OK",
+    "reasons": [
+      "Low semantic match to known drugs (sim=0.48)."
+    ]
+  },
+  "safety_note": "This tool is for screening only. It does not verify authenticity and is not medical advice. For exact use and dosing, consult a pharmacist/clinician.",
+  "recommended_next_steps": [
+    "Proceed with a manual visual check."
+  ]
+}

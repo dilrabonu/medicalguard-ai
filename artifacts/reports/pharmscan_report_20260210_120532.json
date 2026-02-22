@@ -1,0 +1,37 @@
+{
+  "timestamp_utc": "2026-02-10T12:05:32.415201Z",
+  "image_path": "artifacts\\examples\\an.webp",
+  "bbox_xyxy": [
+    2,
+    0,
+    258,
+    113
+  ],
+  "signals": {
+    "yolo_conf": 0.7111331224441528,
+    "trocr_conf_proxy": 0.8866916418075561,
+    "extracted_text_raw": "ANTIBICTIC",
+    "extracted_text_normalized": "ANTIBICTIC",
+    "regex_plausibility": 1.0,
+    "semantic_best_match": "AZITHROMYCIN",
+    "semantic_similarity": 0.4553089141845703,
+    "text_quality_features": {
+      "quality_score": 1.0,
+      "len_score": 1.0,
+      "alpha_ratio": 1.0,
+      "weird_char_penalty": 0.0
+    }
+  },
+  "risk_assessment": {
+    "risk_score": 0.18389960527420046,
+    "risk_level": "LOW",
+    "decision": "OK",
+    "reasons": [
+      "Low semantic match to known drugs (sim=0.46)."
+    ]
+  },
+  "safety_note": "This tool is for screening only. It does not verify authenticity and is not medical advice. For exact use and dosing, consult a pharmacist/clinician.",
+  "recommended_next_steps": [
+    "Proceed with a manual visual check."
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "timestamp_utc": "2026-02-10T10:53:43.752685Z",
+  "image_path": "artifacts\\examples\\foster.webp",
+  "bbox_xyxy": [
+    840,
+    712,
+    1436,
+    858
+  ],
+  "signals": {
+    "yolo_conf": 0.25281551480293274,
+    "trocr_conf_proxy": 0.7137271016836166,
+    "extracted_text_raw": "AOO MOSI INHALASYON COZELTI",
+    "extracted_text_normalized": "AOO MOSI INHALASYON COZELTI",
+    "regex_plausibility": 1.0,
+    "semantic_best_match": "CETIRIZINE",
+    "semantic_similarity": 0.211703360080719,
+    "text_quality_features": {
+      "quality_score": 0.95,
+      "len_score": 1.0,
+      "alpha_ratio": 0.8888888888888888,
+      "weird_char_penalty": 0.0
+    }
+  },
+  "risk_assessment": {
+    "risk_score": 0.42191245838999747,
+    "risk_level": "MEDIUM",
+    "decision": "REVIEW",
+    "reasons": [
+      "Low semantic match to known drugs (sim=0.21)."
+    ]
+  },
+  "safety_note": "This tool is for screening only. It does not verify authenticity and is not medical advice. For exact use and dosing, consult a pharmacist/clinician.",
+  "recommended_next_steps": [
+    "Re-take the photo with better lighting.",
+    "Try another angle.",
+    "Manual review by pharmacist."
+  ]
+}

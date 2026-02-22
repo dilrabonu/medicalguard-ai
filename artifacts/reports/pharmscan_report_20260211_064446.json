@@ -1,0 +1,37 @@
+{
+  "timestamp_utc": "2026-02-11T06:44:46.181053Z",
+  "image_path": "artifacts\\examples\\p.jpg",
+  "bbox_xyxy": [
+    96,
+    462,
+    235,
+    523
+  ],
+  "signals": {
+    "yolo_conf": 0.6205648183822632,
+    "trocr_conf_proxy": 0.9798900783061981,
+    "extracted_text_raw": "IVABRADINE",
+    "extracted_text_normalized": "IVABRADINE",
+    "regex_plausibility": 1.0,
+    "semantic_best_match": "LORATADINE",
+    "semantic_similarity": 0.5176047682762146,
+    "text_quality_features": {
+      "quality_score": 1.0,
+      "len_score": 1.0,
+      "alpha_ratio": 1.0,
+      "weird_char_penalty": 0.0
+    }
+  },
+  "risk_assessment": {
+    "risk_score": 0.18606931716203687,
+    "risk_level": "LOW",
+    "decision": "OK",
+    "reasons": [
+      "Low semantic match to known drugs (sim=0.52)."
+    ]
+  },
+  "safety_note": "This tool is for screening only. It does not verify authenticity and is not medical advice. For exact use and dosing, consult a pharmacist/clinician.",
+  "recommended_next_steps": [
+    "Proceed with a manual visual check."
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "timestamp_utc": "2026-02-07T09:19:47.193871Z",
+  "image_path": "data\\raw_archive\\test\\images\\20230812_210244_jpg.rf.a2373a15c967eb6a157295e74fc71f45.jpg",
+  "bbox_xyxy": [
+    161,
+    162,
+    447,
+    199
+  ],
+  "signals": {
+    "yolo_conf": 0.3253888487815857,
+    "trocr_conf_proxy": 0.892273268529347,
+    "extracted_text_raw": "DEXAMETHASONE",
+    "extracted_text_normalized": "DEXAMETHASONE",
+    "text_quality_features": {
+      "len_score": 1.0,
+      "alpha_ratio": 1.0,
+      "digit_ratio": 0.0,
+      "weird_char_penalty": 0.0,
+      "quality_score": 1.0
+    }
+  },
+  "risk_assessment": {
+    "risk_score": 0.341279374063015,
+    "risk_level": "LOW",
+    "decision": "OK",
+    "reasons": [
+      "Signals are strong: detection + OCR + text quality look reliable."
+    ]
+  },
+  "safety_note": "This tool performs screening only. It does not verify authenticity, and it is not medical advice. If uncertain, consult a pharmacist or clinician.",
+  "recommended_next_steps": [
+    "Proceed (visual check)"
+  ]
+}

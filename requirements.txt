@@ -1,0 +1,30 @@
+#Core
+numpy>=1.24
+pandas>=2.0
+pillow>=10.0
+
+#Vision / Detection
+ultralytics>=8.2.0
+opencv-python>=4.8.0
+
+# PyTorch + Transformers (TrOCR) 
+torch>=2.2.0
+transformers>=4.41.0
+accelerate>=0.30.0
+timm>=1.0.7
+sentencepiece>=0.2.0
+
+# RAG / Vector DB + Embeddings
+rank-bm25>=0.2.2
+sentence-transformers>=3.0.0
+
+#  App 
+streamlit>=1.36.0
+
+#  Utilities
+tqdm>=4.66.0
+
+# FastAPI
+fastapi>=0.110.0
+uvicorn>=0.27.0
+python-multipart>=0.0.9

@@ -1,2 +1,0 @@
-# medicalguard-ai
-PharmScan AI

@@ -1,4 +1,4 @@
-# Medicalguard AI
+
 # 🩺 MedicalGuard AI — Safe Medication Label Analysis with RAG + OCR
 
 A production-style AI system for **medication label understanding and safety-aware information retrieval**, combining **Computer Vision (OCR), LLMs, and Retrieval-Augmented Generation (RAG)**.

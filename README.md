@@ -92,14 +92,23 @@ Implemented via:
 
 
 medicalguard-ai/
+
 │
+
 ├── agents/ # Core agent logic
+
 ├── api/ # FastAPI backend
+
 ├── artifacts/ # Outputs and reports
+
 ├── data/ # Knowledge base
+
 ├── scripts/ # Chunking, embedding, querying
+
 ├── app.py # Streamlit UI
+
 ├── requirements.txt
+
 └── README.md
 
 

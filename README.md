@@ -7,32 +7,32 @@ A production-style AI system for **medication label understanding and safety-awa
 
 ---
 
-## 🚀 Overview
+##  Overview
 
 MedicalGuard AI processes medication images and extracts relevant drug information using:
 
-- 🧠 **TrOCR (Transformer OCR)** for text extraction
-- 🔍 **YOLOv8** for object detection (drug region localization)
-- 📚 **RAG pipeline (ChromaDB + embeddings)** for semantic retrieval
-- 🤖 **LLM-based reasoning** with strict safety prompts
-- 🌐 **FastAPI backend + Streamlit UI**
+-  **TrOCR (Transformer OCR)** for text extraction
+-  **YOLOv8** for object detection (drug region localization)
+-  **RAG pipeline (ChromaDB + embeddings)** for semantic retrieval
+-  **LLM-based reasoning** with strict safety prompts
+-  **FastAPI backend + Streamlit UI**
 
 The system ensures **safe, controlled outputs** by enforcing LLM safety rules.
 
 ---
 
-## 🧩 Key Features
+##  Key Features
 
-- 📷 Upload medication image → detect & extract drug name  
-- 🔎 Semantic retrieval from medical knowledge base (ChromaDB)  
-- 🧠 LLM reasoning with **safety-aware prompts**  
-- ⚠️ Built-in **AI safety guardrails** (no diagnosis or treatment advice)  
-- 📊 Risk scoring & explanation output  
-- 🧪 Debug mode for system transparency  
+-  Upload medication image → detect & extract drug name  
+-  Semantic retrieval from medical knowledge base (ChromaDB)  
+-  LLM reasoning with **safety-aware prompts**  
+-  Built-in **AI safety guardrails** (no diagnosis or treatment advice)  
+-  Risk scoring & explanation output  
+-  Debug mode for system transparency  
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 Image → YOLOv8 → TrOCR → Extracted Text
 ↓
 RAG Pipeline
@@ -45,7 +45,7 @@ Final Structured Output
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Computer Vision:** YOLOv8, TrOCR  
 - **NLP / LLM:** Prompt engineering, safety rules  
@@ -57,7 +57,7 @@ Final Structured Output
 
 ---
 
-## 📊 Example Output
+## Example Output
 
 - Drug: **IVABRADINE**  
 - Decision: **OK**  
@@ -69,15 +69,15 @@ Final Structured Output
 
 ---
 
-## 🔒 AI Safety Design
+##  AI Safety Design
 
 This system is built with **strict safety constraints**:
 
-- ❌ No medical diagnosis  
-- ❌ No treatment recommendations  
-- ❌ No dosage advice  
-- ✅ Only provides **factual drug information**  
-- ✅ Always suggests consulting a doctor  
+-  No medical diagnosis  
+-  No treatment recommendations  
+-  No dosage advice  
+-  Only provides **factual drug information**  
+-  Always suggests consulting a doctor  
 
 Implemented via:
 - Prompt-based safety rules  
@@ -86,9 +86,8 @@ Implemented via:
 
 ---
 
-## 📁 Project Structure
 
-## 📁 Project Structure
+##  Project Structure
 
 
 medicalguard-ai/
@@ -114,7 +113,7 @@ medicalguard-ai/
 
 ---
 
-## ⚙️ How to Run
+##  How to Run
 
 ```bash
 # Clone repo
@@ -141,7 +140,7 @@ and safety (prompt rules)
 
 into a real-world AI pipeline.
 
-📌 Future Improvements
+ Future Improvements
 Multi-language support
 Better OCR robustness
 Larger medical knowledge base

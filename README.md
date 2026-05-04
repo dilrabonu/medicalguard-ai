@@ -137,11 +137,4 @@ Multi-language support
 Better OCR robustness
 Larger medical knowledge base
 Fine-tuned medical LLM
-👩‍💻 Author
 
-Dilrabo Khidirova
-ML Engineer | AI Systems | LLMs, RAG, Computer Vision
-
-License
-
-MIT License
